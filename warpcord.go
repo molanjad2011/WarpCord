@@ -15,7 +15,7 @@ import (
 )
 
 const (
-	DiscordPath = "/opt/discord/Discord"
+	DiscordPath = "/usr/bin/vesktop"
 	AppName     = "WarpCord"
 )
 
@@ -135,4 +135,3 @@ func main() {
 	win.SetContent(content)
 	win.ShowAndRun()
 }
-
